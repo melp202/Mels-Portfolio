@@ -17,12 +17,16 @@
 /* ABOUT */
 .about-section{
   box-shadow: 0 0 1px rgba(0, 0, 0, .2);
-  margin-bottom: -24px;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.about-section h1{
-  text-align: center;
-  padding-top: 24px;
+.about-heading{
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
 }
 
 .action-btn{
@@ -34,11 +38,22 @@
 .projects-section{
   text-align: center;
   box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
 }
-.projects-section h1{
+
+.projects-heading{
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+
+/* .projects-section h1{
   padding-top: 24px;  
   
-}
+} */
 
 
 

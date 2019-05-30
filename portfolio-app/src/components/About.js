@@ -7,10 +7,12 @@ class About extends Component {
 	render() {
 		return (
 			<div className='about-section'>
+				<div className='about-heading'>
 				<h1>About</h1>
-				<Grid className="demo-grid-1" style={{margin: '25px 0'}}>
+				</div>
+				<Grid className="demo-grid-1" style={{margin: '18px 0'}}>
 					<Cell col={4}>
-						<div style={{height: '330px', width: '330px', background: 'teal', borderRadius: '50%'}}>
+						<div style={{height: '350px', width: '350px', background: 'teal', borderRadius: '50%'}}>
 
 						</div>
 					</Cell>

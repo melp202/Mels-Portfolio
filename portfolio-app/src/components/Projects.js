@@ -13,8 +13,10 @@ class Projects extends Component {
 	render() {
 		return (
 			<div className='projects-section'>
+				<div className="projects-heading">
 				<h1>Projects</h1>
-				<Grid className="demo-grid-1">
+				</div>
+				<Grid className="demo-grid-1" style={{margin: '18px 0'}}>
 					<Cell col={2} style={{margin: '30px'}}>
 						<Card
 							shadow={0}

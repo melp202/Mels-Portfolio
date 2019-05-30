@@ -9,16 +9,16 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<div style={{ height: '600px', position: 'relative', backgroundColor: '#333', marginBottom: '-24px'}}>
+				<div style={{ height: '100vh', position: 'relative',  marginBottom: '-24px',backgroundColor: '#343', opacity: '.86'}}>
 					<Layout 
 						style={{
 							background:
-								'url(https://media-public.canva.com/MADaq6iunOg/1/screen_2x.jpg) center / cover', opacity: '.8'
+								'url(https://media-public.canva.com/MADaFIPJI_Q/1/screen_2x.jpg) center / cover' 
 						}}
 					>
 						<Header
 							transparent
-							title="Melissa Price"
+							title=" "
 							style={{ color: 'white' }}
 						>
 							<Navigation className='fScreen-Nav'>
@@ -35,7 +35,16 @@ class App extends Component {
 								<a href="#">Link</a>
 							</Navigation>
 						</Drawer> */}
-						<Content />
+						<div className="highlight">
+						<div className="highlight-heading">
+						<h1>Melissa Price</h1>
+						</div>
+						<div className="highlight-subtexted">
+						<p>Front-End Developer | Creator | Music Enthusiast </p>
+						</div>
+						<button className='mdl-button mdl-js-button mdl-button--raised action-btn view-projects'>View Projects</button>	
+						</div>
+						{/* <Content /> */}
 					</Layout>
 				</div>
 				<About />

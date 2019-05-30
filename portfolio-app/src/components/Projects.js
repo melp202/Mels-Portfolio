@@ -8,15 +8,17 @@ import {
 	Grid,
 	Cell
 } from 'react-mdl';
+import '../App.css'
 class Projects extends Component {
 	render() {
 		return (
-			<div>
+			<div className='projects-section'>
+				<h1>Projects</h1>
 				<Grid className="demo-grid-1">
-					<Cell col={3}>
+					<Cell col={2} style={{margin: '30px'}}>
 						<Card
 							shadow={0}
-							style={{ width: '320px', height: '320px', margin: 'auto' }}
+							style={{ width: '240px', height: '320px', margin: 'auto' }}
 						>
 							<CardTitle
 								expand
@@ -26,21 +28,21 @@ class Projects extends Component {
 										'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'
 								}}
 							>
-								Update
+								Who's That Artist
 							</CardTitle>
 							<CardText>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
 								convallis.
 							</CardText>
 							<CardActions border>
-								<Button colored>View Updates</Button>
+								<Button colored>View Site</Button>
 							</CardActions>
 						</Card>
 					</Cell>
-					<Cell col={3}>
+					<Cell col={2} style={{margin: '30px'}}>
 						<Card
 							shadow={0}
-							style={{ width: '320px', height: '320px', margin: 'auto' }}
+							style={{ width: '240px', height: '320px', margin: 'auto' }}
 						>
 							<CardTitle
 								expand
@@ -50,21 +52,21 @@ class Projects extends Component {
 										'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'
 								}}
 							>
-								Update
+								Kicks-Api
 							</CardTitle>
 							<CardText>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
 								convallis.
 							</CardText>
 							<CardActions border>
-								<Button colored>View Updates</Button>
+								<Button colored>View Site</Button>
 							</CardActions>
 						</Card>
 					</Cell>
-					<Cell col={3}>
+					<Cell col={2} style={{margin: '30px'}}>
 						<Card
 							shadow={0}
-							style={{ width: '320px', height: '320px', margin: 'auto' }}
+							style={{ width: '240px', height: '320px', margin: 'auto' }}
 						>
 							<CardTitle
 								expand
@@ -74,21 +76,21 @@ class Projects extends Component {
 										'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'
 								}}
 							>
-								Update
+								Dropz
 							</CardTitle>
 							<CardText>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
 								convallis.
 							</CardText>
 							<CardActions border>
-								<Button colored>View Updates</Button>
+								<Button colored>View Site</Button>
 							</CardActions>
 						</Card>
 					</Cell>
-					<Cell col={3}>
+					<Cell col={2} style={{margin: '30px'}}>
 						<Card
 							shadow={0}
-							style={{ width: '320px', height: '320px', margin: 'auto' }}
+							style={{ width: '240px', height: '320px', margin: 'auto' }}
 						>
 							<CardTitle
 								expand
@@ -105,7 +107,7 @@ class Projects extends Component {
 								convallis.
 							</CardText>
 							<CardActions border>
-								<Button colored>View Updates</Button>
+								<Button colored>View Site</Button>
 							</CardActions>
 						</Card>
 					</Cell>

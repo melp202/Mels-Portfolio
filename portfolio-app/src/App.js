@@ -9,11 +9,11 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<div style={{ height: '400px', position: 'relative', backgroundColor: '#333'}}>
+				<div style={{ height: '600px', position: 'relative', backgroundColor: '#333', marginBottom: '-24px'}}>
 					<Layout 
 						style={{
 							background:
-								'url(https://images.unsplash.com/photo-1519576558007-128b5f56caeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80) center / cover', opacity: '.7'
+								'url(https://media-public.canva.com/MADaq6iunOg/1/screen_2x.jpg) center / cover', opacity: '.8'
 						}}
 					>
 						<Header

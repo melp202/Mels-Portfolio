@@ -9,11 +9,11 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<div style={{ height: '100vh', position: 'relative',  marginBottom: '-24px',backgroundColor: '#343', opacity: '.86'}}>
+				<div style={{ height: '100vh', position: 'relative',  marginBottom: '-24px',backgroundColor: '#343'}}>
 					<Layout 
 						style={{
 							background:
-								'url(https://media-public.canva.com/MADaFIPJI_Q/1/screen_2x.jpg) center / cover' 
+								'url(https://images.unsplash.com/photo-1505867104426-a08b9a21aae7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) center / cover', opacity: '.88'
 						}}
 					>
 						<Header
@@ -40,7 +40,11 @@ class App extends Component {
 						<h1>Melissa Price</h1>
 						</div>
 						<div className="highlight-subtexted">
-						<p>Front-End Developer | Creator | Music Enthusiast </p>
+						<p>Front-End Developer 
+							<span className='pipes'>|</span> 
+							 Creator 
+							<span className='pipes'>|</span> 							
+							 Music Enthusiast </p>
 						</div>
 						<button className='mdl-button mdl-js-button mdl-button--raised action-btn view-projects'>View Projects</button>	
 						</div>

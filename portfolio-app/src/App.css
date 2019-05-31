@@ -60,23 +60,37 @@ body{
 
 /* ABOUT */
 .about-section{
+  height: 100vh;
   box-shadow: 0 0 1px rgba(0, 0, 0, .2);
-  padding: 40px 0;
+  padding: 18px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'EB Garamond', serif;
+}
+.about-section p {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .about-heading{
   display: flex;
   justify-content: center;
-  font-size: 70px;
 }
 .about-heading h1{
   color: rgb(116, 19, 41);
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
+  font-size: 70px;
+  margin: 0;
 }
+
+.about-btn{
+  height: 50px;
+  width: 125px;
+  border-radius: 12px;
+}
+
 
 .action-btn{
   margin-right: 20px; 
@@ -85,9 +99,10 @@ body{
 
 /* PROJECT */
 .projects-section{
+  height: 100vh;
   text-align: center;
   box-shadow: 0 0 1px rgba(0, 0, 0, .2);
-  padding: 40px 0;
+  padding: 18px 0;
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -97,18 +112,20 @@ body{
 .projects-heading{
   display: flex;
   justify-content: center;
-  font-size: 70px;
 }
 
 .projects-heading h1{
   color: #e9e9e9;
   font-family: 'Quicksand', sans-serif;
+  font-size: 70px;
   font-weight: 700;
+  margin: 0;
 }
 
 
 /* Contact form Styles */
 .contact-container{
+  height: 100vh;
   background-color: #fff;
   height: 700px;
   padding:.05px; 
@@ -166,4 +183,11 @@ box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2
   margin:0;
   text-align: center;
   color:rgb(116, 19, 41);
+}
+
+
+
+/* FOOTER */
+.mdl-mini-footer{
+  background-color: rgb(116, 19, 41);
 }

@@ -24,8 +24,8 @@ class About extends Component {
 							<p>
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, itaque. Recusandae dignissimos, enim natus autem a suscipit aspernatur similique ipsum vero pariatur facilis id culpa.
 							</p>
-							<button className='mdl-button mdl-js-button mdl-button--raised action-btn'>Projects</button>
-							<button className='mdl-button mdl-js-button mdl-button--raised action-btn'>Github</button>
+							<button className='mdl-button mdl-js-button mdl-button--raised action-btn about-btn'>Projects</button>
+							<button className='mdl-button mdl-js-button mdl-button--raised action-btn about-btn'>Github</button>
 						</div>
 					</Cell>
 				</Grid>

@@ -47,9 +47,9 @@ class App extends Component {
 							<div className="highlight-subtexted">
 								<p>
 									Front-End Developer
-									<span className="pipes">|</span>
+									<span className="pipes"> | </span>
 									Creator
-									<span className="pipes">|</span>
+									<span className="pipes"> | </span>
 									Music Enthusiast{' '}
 								</p>
 							</div>

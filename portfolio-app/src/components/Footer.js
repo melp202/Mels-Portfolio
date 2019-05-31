@@ -6,13 +6,16 @@ class Footer extends Component {
 			<div>
 				<footer class="mdl-mini-footer">
 					<div class="mdl-mini-footer__middle-section">
-						<div class="mdl-logo">Title</div>
+						<div class="mdl-logo">Melissa Price</div>
 						<ul class="mdl-mini-footer__link-list">
 							<li>
-								<a href="#">Help</a>
+								<a href="#">About</a>
 							</li>
 							<li>
-								<a href="#">Privacy & Terms</a>
+								<a href="#">Projects</a>
+							</li>
+							<li>
+								<a href="#">Contact</a>
 							</li>
 						</ul>
 					</div>

@@ -24,7 +24,7 @@ body{
   font-weight: bold;
 }
 .highlight-subtexted p{
-  font-size: 35px;
+  font-size: 30px;
   color: #EAEAEA;
   text-shadow: 1px 1px rgb(116,19,41);
   font-family: 'Quicksand', sans-serif;
@@ -90,7 +90,13 @@ body{
   width: 125px;
   border-radius: 12px;
 }
-
+#headshot{
+  background: url(./images/Headshot.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 430px;
+  width: 410px;
+}
 
 .action-btn{
   margin-right: 20px; 
@@ -112,6 +118,7 @@ body{
 .projects-heading{
   display: flex;
   justify-content: center;
+  font-size: 70px;
 }
 
 .projects-heading h1{

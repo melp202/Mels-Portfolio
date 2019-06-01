@@ -50,7 +50,7 @@ class App extends Component {
 									<span className="pipes"> | </span>
 									Creator
 									<span className="pipes"> | </span>
-									Music Enthusiast{' '}
+									Music Enthusiast
 								</p>
 							</div>
 							<button className="mdl-button mdl-js-button mdl-button--raised action-btn view-projects">

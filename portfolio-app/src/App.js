@@ -1,20 +1,18 @@
 import './App.css';
-import { Layout, Header, Navigation, Content } from 'react-mdl';
+import { Layout, Header, Navigation } from 'react-mdl';
 import React, { Component } from 'react';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 class App extends Component {
 	render() {
 		return (
-			<div>
-				<div
+			<div className='container'>
+				<div 
 					style={{
 						height: '100vh',
 						position: 'relative',
-						marginBottom: '-24px',
 						backgroundColor: '#343'
 					}}
 				>
@@ -27,9 +25,9 @@ class App extends Component {
 					>
 						<Header transparent title=" " style={{ color: 'white' }}>
 							<Navigation className="fScreen-Nav">
-								<a href="#">About</a>
-								<a href="#">Projects</a>
-								<a href="#">Contact</a>
+								<a href="#about">About</a>
+								<a href="#projects">Projects</a>
+								<a href="#contact">Contact</a>
 							</Navigation>
 						</Header>
 						{/* <Drawer title="Title">
@@ -57,13 +55,11 @@ class App extends Component {
 								View Projects
 							</button>
 						</div>
-						{/* <Content /> */}
 					</Layout>
 				</div>
 				<About />
 				<Projects />
 				<Contact />
-				<Footer />
 			</div>
 		);
 	}

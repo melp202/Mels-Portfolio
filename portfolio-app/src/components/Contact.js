@@ -4,7 +4,7 @@ import '../App.css'
 class Contact extends Component {
     render() {
         return (
-            <div className="contact-container">
+            <div className="contact-container" id='contact'>
                 {/* Contact Form */}
                 <form className="form-container2">
                     <h2 className="contact-title">Contact Me!</h2>

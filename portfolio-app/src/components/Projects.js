@@ -12,7 +12,7 @@ import '../App.css'
 class Projects extends Component {
 	render() {
 		return (
-			<div className='projects-section'>
+			<div className='projects-section' id='projects'>
 				<div className="projects-heading">
 				<h1>Projects</h1>
 				</div>

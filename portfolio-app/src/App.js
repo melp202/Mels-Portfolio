@@ -1,5 +1,5 @@
 import './App.css';
-import { Layout, Header, Navigation } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer } from 'react-mdl';
 import React, { Component } from 'react';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -30,14 +30,14 @@ class App extends Component {
 								<a href="#contact">Contact</a>
 							</Navigation>
 						</Header>
-						{/* <Drawer title="Title">
+						<Drawer title="Title">
 							<Navigation>
 								<a href="#">Link</a>
 								<a href="#">Link</a>
 								<a href="#">Link</a>
 								<a href="#">Link</a>
 							</Navigation>
-						</Drawer> */}
+						</Drawer>
 						<div className="highlight">
 							<div className="highlight-heading">
 								<h1>Melissa Price</h1>

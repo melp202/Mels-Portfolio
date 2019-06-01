@@ -8,7 +8,7 @@ import {
 	Grid,
 	Cell
 } from 'react-mdl';
-import '../App.css'
+import '../css/Projects.css'
 class Projects extends Component {
 	render() {
 		return (

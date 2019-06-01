@@ -52,7 +52,7 @@ class App extends Component {
 								</p>
 							</div>
 							<button className="mdl-button mdl-js-button mdl-button--raised action-btn view-projects">
-								View Projects
+								<a href="#projects">View Projects</a>
 							</button>
 						</div>
 					</Layout>

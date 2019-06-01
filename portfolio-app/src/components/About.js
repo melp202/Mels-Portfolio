@@ -6,7 +6,7 @@ import '../App.css';
 class About extends Component {
 	render() {
 		return (
-			<div className="about-section" id='about'>
+			<div className="about-section" id="about">
 				<div className="about-heading">
 					<h1>About</h1>
 				</div>
@@ -27,10 +27,14 @@ class About extends Component {
 								working on personal projects and watching anime.
 							</p>
 							<button className="mdl-button mdl-js-button mdl-button--raised action-btn about-btn">
-								Projects <i class="fas fa-file-code" />
+								<a href="#projects">Projects</a> <i class="fas fa-file-code" />
 							</button>
 							<button className="mdl-button mdl-js-button mdl-button--raised action-btn about-btn">
-								Github <i class="fab fa-github" />
+								<a href="https://www.linkedin.com/in/melissa-a-price/">
+									{' '}
+									LinkedIn{' '}
+								</a>
+								<i class="fab fa-linkedin" />
 							</button>
 						</div>
 					</Cell>

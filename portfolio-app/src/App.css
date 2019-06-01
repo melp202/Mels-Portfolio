@@ -48,6 +48,11 @@ body{
   height: 50px;
   border-radius: 12px;
 }
+.view-projects a{
+  text-decoration: none;
+  color: #EAEAEA;
+  font-weight: 600;
+}
 
 .pipes{
   color: rgb(116, 19, 41);
@@ -112,6 +117,20 @@ body{
   width: 125px;
   border-radius: 12px;
 }
+
+.about-btn a {
+  text-decoration: none;
+  color: #EAEAEA;
+  font-weight: 600;
+}
+.fa-linkedin, 
+.fa-file-code{
+  font-size: 17px;
+  color: #EAEAEA;
+}
+
+
+
 #headshot{
   background: url(./images/Headshot.jpg) no-repeat center center;
   background-size: cover;

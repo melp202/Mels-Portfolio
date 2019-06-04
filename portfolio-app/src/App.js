@@ -30,17 +30,16 @@ class App extends Component {
 								<a href="#contact">Contact</a>
 							</Navigation>
 						</Header>
-						<Drawer title="Title">
+						<Drawer title="Menu">
 							<Navigation>
-								<a href="#">Link</a>
-								<a href="#">Link</a>
-								<a href="#">Link</a>
-								<a href="#">Link</a>
+								<a href="#about">About</a>
+								<a href="#projects">Projects</a>
+								<a href="#contact">Contact</a>
 							</Navigation>
 						</Drawer>
 						<div className="highlight">
 							<div className="highlight-heading">
-								<h1>Melissa Price</h1>
+								<h1>Hello, Im Melissa</h1>
 							</div>
 							<div className="highlight-subtexted">
 								<p>

@@ -60,3 +60,19 @@
   }
 
 /* Media Queries */
+@media only screen and (max-width: 1024px){
+
+  .demo-grid-1{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 33.3% 33.3%;
+    grid-column-gap: 50px;
+  }
+
+  .about-heading{
+    margin: 90px auto;
+  }
+  .par-grid{
+    width: 300px;
+  }
+}

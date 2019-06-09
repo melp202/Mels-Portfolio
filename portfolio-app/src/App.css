@@ -1,5 +1,8 @@
 
 /* target navigation for smaller screens have fScreen display non on small screen and hamburger(Drawer) display on smaller screens */
+*{
+  box-sizing: border-box;
+}
 html {
 scroll-behavior: smooth;
 }

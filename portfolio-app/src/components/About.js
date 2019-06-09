@@ -15,7 +15,7 @@ class About extends Component {
 						<div id="headshot" />
 					</Cell>
 					<Cell col={4}>
-						<div>
+						<div className='par-grid'>
 							<p>
 								I am a Software Engineer with a passion for music and building
 								web applications. I aim to use my development skills like music:

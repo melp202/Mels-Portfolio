@@ -1,4 +1,7 @@
 /* PROJECT */
+*{
+  box-sizing: border-box;
+}
 .projects-section{
     height: 100vh;
     width: 100%;
@@ -27,3 +30,19 @@
   }
 
 /* Media Queries */
+@media only screen and (max-width: 1024px){
+.mdl-card {
+  min-width: 300px;
+}
+.mdl-grid{
+  margin: 18px auto;
+}
+.project-card{
+  margin: 50px 30px;
+}
+.project-heading{
+  margin: 90px auto;
+}
+
+
+}

@@ -16,7 +16,7 @@ class Projects extends Component {
 				<div className="projects-heading">
 				<h1>Projects</h1>
 				</div>
-				<Grid className="demo-grid-1" style={{margin: '18px 0'}}>
+				<Grid className="demo-grid-1 project-card" style={{margin: '18px 0'}}>
 					<Cell col={2} style={{margin: '30px'}}>
 						<Card
 							shadow={0}

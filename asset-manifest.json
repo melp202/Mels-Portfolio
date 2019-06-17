@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Mels-Portfolio/static/css/main.e73f9b13.chunk.css",
-    "main.js": "/Mels-Portfolio/static/js/main.3cdc4be4.chunk.js",
-    "main.js.map": "/Mels-Portfolio/static/js/main.3cdc4be4.chunk.js.map",
-    "runtime~main.js": "/Mels-Portfolio/static/js/runtime~main.3db02bdd.js",
-    "runtime~main.js.map": "/Mels-Portfolio/static/js/runtime~main.3db02bdd.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/Mels-Portfolio/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.21bc5a41.chunk.js": "/Mels-Portfolio/static/js/2.21bc5a41.chunk.js",
-    "static/js/2.21bc5a41.chunk.js.map": "/Mels-Portfolio/static/js/2.21bc5a41.chunk.js.map",
-    "index.html": "/Mels-Portfolio/index.html",
-    "precache-manifest.6560c0b8316682155eb8651480efc94e.js": "/Mels-Portfolio/precache-manifest.6560c0b8316682155eb8651480efc94e.js",
-    "service-worker.js": "/Mels-Portfolio/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/Mels-Portfolio/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.e73f9b13.chunk.css.map": "/Mels-Portfolio/static/css/main.e73f9b13.chunk.css.map",
-    "static/media/About.css": "/Mels-Portfolio/static/media/Headshot.358af740.jpg"
+    "main.css": "/Mels-Portfolio/portfolio-app/static/css/main.a2edd11c.chunk.css",
+    "main.js": "/Mels-Portfolio/portfolio-app/static/js/main.3cdc4be4.chunk.js",
+    "main.js.map": "/Mels-Portfolio/portfolio-app/static/js/main.3cdc4be4.chunk.js.map",
+    "runtime~main.js": "/Mels-Portfolio/portfolio-app/static/js/runtime~main.0fc7b0c3.js",
+    "runtime~main.js.map": "/Mels-Portfolio/portfolio-app/static/js/runtime~main.0fc7b0c3.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/Mels-Portfolio/portfolio-app/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.21bc5a41.chunk.js": "/Mels-Portfolio/portfolio-app/static/js/2.21bc5a41.chunk.js",
+    "static/js/2.21bc5a41.chunk.js.map": "/Mels-Portfolio/portfolio-app/static/js/2.21bc5a41.chunk.js.map",
+    "index.html": "/Mels-Portfolio/portfolio-app/index.html",
+    "precache-manifest.ec0814b3ed53182381211455ea360b4f.js": "/Mels-Portfolio/portfolio-app/precache-manifest.ec0814b3ed53182381211455ea360b4f.js",
+    "service-worker.js": "/Mels-Portfolio/portfolio-app/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/Mels-Portfolio/portfolio-app/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.a2edd11c.chunk.css.map": "/Mels-Portfolio/portfolio-app/static/css/main.a2edd11c.chunk.css.map",
+    "static/media/About.css": "/Mels-Portfolio/portfolio-app/static/media/Headshot.358af740.jpg"
   }
 }
